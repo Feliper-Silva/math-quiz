@@ -17,16 +17,24 @@ Um quiz de perguntas e respostas sobre equações matematicas(mutiplicações), 
 
 ## tecnologias usadas:
 
-### front-end
+## front-end
  - HTML5
  - CSS
  - JavaScript + JQuery
 
+## Editor
+- Vscode
 
+
+# Como executar o projeto:
+```bash
+git clone https://github.com/Feliper-Silva/math-quiz
+```
 
 
 
 
 ## Autor & colaborador
 Felipe Rodrigues Silva & Fernando Isnaldo
+
 https://www.linkedin.com/in/feliper-silva/
