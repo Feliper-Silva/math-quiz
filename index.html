@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz: Perguntas & Respostas</title>
+  <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+        <nav>
+            <div>
+                <a onclick="autores()">Autores</a> 
+                <a onclick="sobre()">Sobre o jogo</a> 
+            </div>
+            <span id="fechar" onclick="fechar()"> x </span>
+            <div id="autores">
+                <p>Fernando Isnaldo</p>
+                <p>Felipe Rodrigues</p>
+            </div>
+            <div id="sobre">
+                <p>Um jogo sobre questões matemáticas.</p>
+            </div>
+        </nav>
+        <div>
+            <p id="mostraPergunta"></p>
+            <p id="mostraAlternativas"></p>
+        </div>        
+        <input type="button" class="btn" value="Iniciar o jogo" id="inicia" onclick="inicia()">
+        <div id="respostas"></div>
+        <input type="button" class="btn-2" id="resposta" value="Responder a pergunta" onclick="verificaEscolha()">
+        <input type="button" class="btn-3" value="Reiniciar o jogo" id="reinicia" onclick="reinicia()">          
+        <br/>
+        <br/>
+        <p id="acertoeErro"></p>
+    </main>
+  </body>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+</html>
